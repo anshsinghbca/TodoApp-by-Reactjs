@@ -35,6 +35,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
+  width: 70px;
 }
 
 .deleteButton:hover {

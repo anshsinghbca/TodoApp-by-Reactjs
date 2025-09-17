@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Items.module.css";
+import { MdDelete } from "react-icons/md";
 
 function Items({ todoname, tododate, onDelete }) {
   return (
@@ -12,7 +13,7 @@ function Items({ todoname, tododate, onDelete }) {
           onClick={onDelete}
           className={styles.deleteButton}
         >
-          Delete
+          <MdDelete size={30}/>
         </button>
       </div>
     </div>

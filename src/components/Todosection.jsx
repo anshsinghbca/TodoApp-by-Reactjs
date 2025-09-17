@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Todosection.module.css";
+import { IoMdAdd } from "react-icons/io";
 
 function Todosection({ onAdd }) {
   const [name, setName] = useState("");
@@ -30,7 +31,7 @@ function Todosection({ onAdd }) {
       </div>
       <div className={styles.col}>
         <button type="button" onClick={handleClick} className={styles.addButton}>
-          Add
+          <IoMdAdd size={30} />
         </button>
       </div>
     </div>
